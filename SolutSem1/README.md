@@ -1,18 +1,30 @@
-## Getting Started
+задание 1
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Написать программу, которая запросит пользователя ввести <Имя> в консоли. 
+Получит введенную строку и выведет в консоль сообщение “Привет, <Имя>!”
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+задание 1.2
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+В консоли запросить имя пользователя. В зависимости от текущего времени, вывести приветствие вида 
+"Доброе утро, <Имя>!", если время от 05:00 до 11:59
+"Добрый день, <Имя>!", если время от 12:00 до 17:59;
+"Добрый вечер, <Имя>!", если время от 18:00 до 22:59;
+"Доброй ночи, <Имя>!", если время от 23:00 до 4:59
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+задача 2
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Дан массив двоичных чисел, например [1,1,0,1,1,1], вывести максимальное количество подряд идущих 1.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+задача 4
+
+Дан массив nums = [3,2,2,3] и число val = 3. 
+Если в массиве есть числа, равные заданному, нужно перенести эти элементы в конец массива. 
+Таким образом, первые несколько (или все) элементов массива должны быть отличны от заданного, а остальные - равны ему.
+
+задача 5
+
+Напишите метод, который находит самую длинную строку общего префикса среди массива строк.
+Если общего префикса нет, вернуть пустую строку "".
+
