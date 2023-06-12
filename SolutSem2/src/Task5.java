@@ -9,10 +9,6 @@ public class Task5 {
         if ( directory.isDirectory()){
             for(File item: directory.listFiles()){
                 fNames.add(item.getName());
-                try{
-                    System.out.println(item.getName().substring(item.getName().lastIndexOf(".")));
-                    
-                }
             }
         }
 
