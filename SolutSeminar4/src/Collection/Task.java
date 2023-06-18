@@ -49,18 +49,27 @@ public class Task {
                     System.out.println(list.get(Integer.parseInt(cLine[1])));
                     break;
                 case "LIST":
-                    while (list.size() > 1) {
+                    while (list.size() > 0) {
                         System.out.println(list.pop());
                         break;
                     }
+                    
+                    case "REVERS":
+                    
+                    for (int i = list.size()-1; i >= 0; i--){
+                        System.out.println(list.get(i));
+                    
+                    }
+                    break;
                 default:
-                    if (cLine.length < 1) {
+                    if (cLine.length > 1) {
                         if (isInt(cLine[1])) {
                             adder(cLine, list);
                         } else {
+                            list.addFirst(cLine[0]);
                         }
+                    } else {
                         list.addFirst(cLine[0]);
-
                     }
                     break;
 
